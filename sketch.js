@@ -1,7 +1,7 @@
 let ball = []
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(windowWidth, windowHeight);
   noStroke();
   
   for(let i = 0; i < 5; i++){
